@@ -1,0 +1,11 @@
+package action;
+
+public class BuyItemComplete {
+
+	public String execute(){
+		String result =ERROR;
+
+		return result;
+	}
+
+}

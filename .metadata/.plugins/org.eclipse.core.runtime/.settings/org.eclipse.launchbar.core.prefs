@@ -1,0 +1,8 @@
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,\u30ED\u30FC\u30AB\u30EB/arch=x86_64
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,\u30ED\u30FC\u30AB\u30EB/os=win32
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:\u30ED\u30FC\u30AB\u30EB\u30FB\u30DB\u30B9\u30C8 \u3067\u306E apache-tomcat-8.0.53
+eclipse.preferences.version=1
+org.eclipse.launchbar.core.descriptorType.default\:\u30ED\u30FC\u30AB\u30EB\u30FB\u30DB\u30B9\u30C8\ \u3067\u306E\ apache-tomcat-8.0.53/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:\u30ED\u30FC\u30AB\u30EB\u30FB\u30DB\u30B9\u30C8\ \u3067\u306E\ apache-tomcat-8.0.53/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:\u30ED\u30FC\u30AB\u30EB
+org.eclipse.launchbar.core.descriptorType.default\:\u30ED\u30FC\u30AB\u30EB\u30FB\u30DB\u30B9\u30C8\ \u306E\ apache-tomcat-8.0.53/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:\u30ED\u30FC\u30AB\u30EB\u30FB\u30DB\u30B9\u30C8\ \u306E\ apache-tomcat-8.0.53/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:\u30ED\u30FC\u30AB\u30EB

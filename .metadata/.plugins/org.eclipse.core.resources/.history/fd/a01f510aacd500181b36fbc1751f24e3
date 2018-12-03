@@ -1,0 +1,11 @@
+package action;
+
+public class BuyItemComplete extends ActionSupport implements SessionAware{
+
+	public String execute(){
+		String result =ERROR;
+
+		return result;
+	}
+
+}

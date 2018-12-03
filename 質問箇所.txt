@@ -1,0 +1,6 @@
+test.jsp
+method="post"‚âmethod="geth‚Æ‚·‚éˆÓ–¡
+boolean ret = false;true;
+‚ÌˆÓ–¡
+
+Webproj4‚ÌLoginDAO
