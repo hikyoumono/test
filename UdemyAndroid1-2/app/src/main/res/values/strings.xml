@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">UdemyAndroid1-2</string>
+    <string name="text">HelloWorld</string>
+
+    <string name="text2">Click</string>
+    <string name="text3">ここもクリック</string>
+</resources>
