@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">UdemyAndroid10-2</string>
+    <string name="create">作成</string>
+    <string name="read">読み込み</string>
+    <string name="update">更新</string>
+    <string name="delete">削除</string>
+    <string name="modoru">戻る</string>
+</resources>

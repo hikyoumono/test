@@ -1,0 +1,20 @@
+package dao;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.util.List;
+import java.util.ArrayList;
+import dto.HelloStrutsDTO;
+import util.DBConnector;
+
+public class HelloStrutsDAO {
+
+	List<HelloStrutsDTO> dtoList = new ArrayList<HelloStrutsDTO>();
+
+	public String execute(){
+		DBConnector db =new DBConnector();
+		Connection con =db.getConnection();
+	}
+}

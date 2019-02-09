@@ -1,0 +1,5 @@
+package dto;
+
+public class HelloStrutsDTO {
+private String result;
+}

@@ -1,0 +1,11 @@
+package com.internousdev.ecsite.action;
+import com.internousdev.ecsite.dao.BuyItemCompleteDAO;
+import com.opensymphony.xwork2.ActionSupport;
+
+public class BuyItemCompleteAction extends ActionSupport{
+
+
+	public String execute(){
+		return SUCCESS;
+}
+	}

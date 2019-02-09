@@ -1,0 +1,38 @@
+package action;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Map;
+import org.apache.struts2.interceptor.SessionAware;
+import dao.HelloStrutsDAO;
+import dto.HelloStrutsDTO;
+import com.opensymphony.xwork2.ActionSupport;
+
+public class HelloStrutsAction extends ActionSupport implements SessionAware{
+
+	private List<HelloStrutsDTO> DTOList =new ArrayList<HelloStrutsDTO>();
+	private Map<String,Object> session;
+
+	public String execute(){
+		String ret =ERROR;
+		HelloStrutsDAO dao =new HelloStrutsDAO();
+		DTOList=dao.select();
+
+		if(DTOList.size() > 0){
+			session.put("DTOList", DTOList);
+			ret=SUCCESS;
+		}else{
+			ret =ERROR;
+		}
+		return ret;
+	}
+
+	public Map<String, Object> getSession() {
+		return session;
+	}
+
+	public void setSession(Map<String, Object> session) {
+		this.session = session;
+	}
+
+}

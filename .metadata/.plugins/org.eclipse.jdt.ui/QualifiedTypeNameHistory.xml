@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="dto.LoginDTO"/>
 <fullyQualifiedTypeName name="dao.BuyItemDAO"/>
+<fullyQualifiedTypeName name="com.opensymphony.xwork2.ActionSupport"/>
+<fullyQualifiedTypeName name="dao.InquiryCompleteDAO"/>
+<fullyQualifiedTypeName name="dto.InquiryDTO"/>
+<fullyQualifiedTypeName name="dao.TestDAO"/>
+<fullyQualifiedTypeName name="dao.HelloStrutsDAO"/>
+<fullyQualifiedTypeName name="dto.HelloStrutsDTO"/>
+<fullyQualifiedTypeName name="util.DBConnector"/>
+<fullyQualifiedTypeName name="org.apache.struts2.interceptor.SessionAware"/>
+<fullyQualifiedTypeName name="dao.LoginDAO"/>
+<fullyQualifiedTypeName name="dto.LoginDTO"/>
 </qualifiedTypeNameHistroy>

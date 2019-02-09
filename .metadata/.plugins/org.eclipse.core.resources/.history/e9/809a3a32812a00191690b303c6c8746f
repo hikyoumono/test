@@ -1,0 +1,11 @@
+package action;
+
+import java.util.ArrayList;
+import java.util.List;
+import dao.InquiryCompleteDAO;
+import dto.InquiryDTO;
+import com.opensymphony.xwork2.ActionSupport;
+
+public class InquiryCompleteAction extends ActionSupport{
+
+}

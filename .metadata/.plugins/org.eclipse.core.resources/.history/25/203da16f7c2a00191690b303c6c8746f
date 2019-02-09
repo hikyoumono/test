@@ -1,0 +1,51 @@
+package action;
+
+import java.util.ArrayList;
+import java.util.List;
+import com.opensymphony.xwork2.ActionSupport;
+import dao.LoginDAO;
+import dto.LoginDTO;
+
+public class LoginAction extends ActionSupport{
+
+	private String username;
+	private String password;
+	private List<LoginDTO> dto =new ArrayList<LoginDTO>();
+
+	public String execute(){
+		String ret =ERROR;
+		System.out.println(username);
+		System.out.println(password);
+		LoginDAO dao =new LoginDAO();
+		dto =dao.select(username, password);
+		if(this.username.equals(dto.get(0).getUsername()) && this.password.equals(LoginDTO.get(0).getPassword())){
+
+		}
+		return ret;
+	}
+
+	public String getUsername() {
+		return username;
+	}
+
+	public void setUsername(String username) {
+		this.username = username;
+	}
+
+	public String getPassword() {
+		return password;
+	}
+
+	public void setPassword(String password) {
+		this.password = password;
+	}
+
+	public List<LoginDTO> getDto() {
+		return dto;
+	}
+
+	public void setDto(List<LoginDTO> dto) {
+		this.dto = dto;
+	}
+
+}
